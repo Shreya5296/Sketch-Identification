@@ -1,0 +1,45 @@
+body
+{
+background-image: url("bg.jpeg");
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+h1
+{
+  
+  color:brown;
+  /* background-color: pink; */
+}
+
+#show_sketch
+{
+  float:right;
+  margin-right: .5%;
+}
+
+canvas 
+  {
+    border:5px solid white;
+    border-radius:20px;
+    animation-name: example;
+    animation-duration: 4s;
+    margin-top: 50px; 
+    animation-iteration-count: infinite;
+    
+}
+@keyframes example {
+
+  from {box-shadow: 1px 1px 38px orange;}
+  to {box-shadow: 1px 1px 38px brown;}
+
+}
+
+
+p
+  {
+    padding-top:10px;
+    font-size:25px;
+    
+  }
+
